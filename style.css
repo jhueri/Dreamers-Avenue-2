@@ -69,7 +69,7 @@ nav svg {
     pointer-events: none;
  }  
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
 
     #overlay {  
         display: block;  
@@ -189,9 +189,43 @@ nav svg {
     background-color: #0149ac;
     padding: 50px;
     margin-top: -70px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 16px;
 }
 
-@media only screen and (max-width: 450px) {
+.resources-home a {  
+    text-decoration: none;  
+    color: white;  
+ }
+
+.resources-home img {
+    width: 80px;
+}
+
+.col1-a, .col2-a, .col3-a {
+    flex-basis: 33%;
+    position: relative;
+    margin-left: 30px;
+}
+
+.col1-a img, .col2-a img, .col3-a img {   
+    margin: 0 auto 35px;   
+    display: block;   
+  }  
+
+.col1-a h3, .col2-a h3, .col3-a h3 {  
+    text-align: center;  
+ }
+
+.col1-a p, .col2-a p, .col3-a p {  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    text-align: justify;
+ }
+
+@media only screen and (max-width: 768px) {
 
     .row {
         flex-direction: column-reverse;
@@ -219,4 +253,24 @@ nav svg {
     .col-1 p {
         font-size: 15px;
     }
+
+    .resources-home {  
+        flex-direction: column;  
+        font-size: 13px;
+        padding: 35px;
+     }  
+
+     .col1-a, .col2-a, .col3-a {  
+        flex-basis: 100%;  
+        margin-left: 0;  
+        margin-bottom: 20px;  
+     }  
+
+    .col2-a img, .col3-a img {   
+        margin-top: 20px; 
+      }  
+
+      .col1-a img, .col2-a img, .col3-a img {   
+          width: 60px;
+      }  
 }
