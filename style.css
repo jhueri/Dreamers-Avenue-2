@@ -280,6 +280,158 @@ nav svg {
     background-color: #c09648;  
   }
 
+  .mentorship-container {  
+    background-color: #f4f4f4;  
+    padding: 50px;  
+    text-align: center;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: stretch;  
+    height: 65vh;
+    gap: 60px;
+  }  
+    
+  .col1-b {  
+    flex-basis: 60%;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    flex-direction: column;
+    text-align: left;  
+    color: #003072;
+  }  
+
+.col1-b h1 {
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+
+.col1-b p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+    
+  .col2-b {  
+    flex-basis: 40%;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+  }  
+    
+  .col2-b img {  
+    width: 100%;  
+    height: 80%;  
+    object-fit: cover;
+    border-radius: 10%;
+  }  
+   
+ .how-it-works {  
+    background-color: #0149ac;  
+    padding: 50px;  
+    color: white;  
+ }  
+   
+ .how-it-works ul {  
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+ }  
+   
+ .how-it-works li {  
+    margin-bottom: 20px;  
+ }  
+   
+ .eligibility {  
+    background-color: #f4f4f4;  
+    padding: 50px;  
+ }  
+   
+ .apply-now {  
+    background-color: #0149ac;  
+    padding: 50px;  
+    color: white;  
+    text-align: center;  
+ }  
+   
+ .apply-buttons {  
+    display: flex;  
+    justify-content: space-between;  
+    margin-top: 20px;  
+ }  
+   
+ .apply-mentee, .apply-mentor {  
+    background-color: #efbb5c;  
+    color: #003072;  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+ }  
+   
+ .apply-mentee:hover, .apply-mentor:hover {  
+    background-color: #c09648;  
+ }  
+   
+ .contact-us {  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    padding: 50px;  
+    background-color: var(--color-1);  
+    color: white;  
+ }  
+   
+ .contact-us h2 {  
+    margin-bottom: 10px;  
+ }  
+   
+ .contact-form {  
+    display: flex;   
+    flex-direction: column;   
+    align-items: flex-start;   
+    margin-top: 20px;  
+     
+ }  
+   
+ .form-label {   
+    font-weight: bold;   
+    margin-bottom: 10px;  
+   }   
+     
+   .form-input, .form-textarea {   
+    width: 95%;   
+    padding: 10px;   
+    margin-bottom: 20px;   
+    border: 1px solid #ccc;   
+    border-radius: 5px;   
+   }   
+   
+   .form-button {   
+    background-color: var(--color-4);   
+    color: var(--color-1);   
+    padding: 10px 20px;   
+    border: none;   
+    border-radius: 5px;   
+    cursor: pointer;   
+   }   
+   
+   .form-button:hover {   
+    background-color: #c09648;   
+   }  
+   
+ .social-links {  
+    text-align: center;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    color: var(--color-1);  
+    background-color: #f4f4f4;  
+    padding: 10px;  
+ }  
+   
+ .social-links img {  
+    height: 30px;  
+    margin: 20px;  
+    cursor: pointer;  
+ }  
+ 
+
 @media only screen and (max-width: 768px) {
 
     .row {
@@ -341,4 +493,36 @@ nav svg {
         flex-direction: column;  
         font-size: 13px;
        }  
+
+       .mentorship-container {  
+        padding: 20px;  
+     }  
+    
+     .how-it-works {  
+        padding: 20px;  
+     }  
+    
+     .eligibility {  
+        padding: 20px;  
+     }  
+    
+     .apply-now {  
+        padding: 20px;  
+     }  
+    
+     .apply-buttons {  
+        flex-direction: column;  
+     }  
+    
+     .apply-mentee, .apply-mentor {  
+        margin-bottom: 10px;  
+     }  
+    
+     .contact-us {  
+        padding: 20px;  
+     }  
+    
+     .social-links {  
+        padding: 10px;  
+     }  
 }
