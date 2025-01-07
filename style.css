@@ -183,6 +183,10 @@ nav svg {
 
 .social-links {
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-1);
+    background-color: #f4f4f4;
+    padding: 10px;
 }
 
 .resources-home {
@@ -192,7 +196,8 @@ nav svg {
     display: flex;
     justify-content: space-between;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .resources-home a {  
@@ -215,15 +220,65 @@ nav svg {
     display: block;   
   }  
 
+  .col1-a img:hover, .col2-a img:hover, .col3-a img:hover {  
+    transform: translateY(-10px); /* Moves the element 10 pixels up on hover */
+
+    transition: transform 0.3s ease; /* Smooth transition over 0.3 seconds */
+  }
+
 .col1-a h3, .col2-a h3, .col3-a h3 {  
     text-align: center;  
  }
 
 .col1-a p, .col2-a p, .col3-a p {  
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 20px;
     text-align: justify;
  }
+
+.contact-us {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+    background-color: var(--color-1);
+    color: white;
+}
+
+.contact-us h2 {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    display: flex;  
+    flex-direction: column;  
+    align-items: flex-start;  
+    margin-top: 20px;
+    
+}
+
+.form-label {  
+    font-weight: bold;  
+    margin-bottom: 10px;
+  }  
+    
+  .form-input, .form-textarea {  
+    width: 95%;  
+    padding: 10px;  
+    margin-bottom: 20px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+  }  
+
+  .form-button {  
+    background-color: var(--color-4);  
+    color: var(--color-1);  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+  }  
+
+  .form-button:hover {  
+    background-color: #c09648;  
+  }
 
 @media only screen and (max-width: 768px) {
 
@@ -273,4 +328,17 @@ nav svg {
       .col1-a img, .col2-a img, .col3-a img {   
           width: 60px;
       }  
+
+    .social-links {
+        font-size: 13px;
+    }
+
+    .contact-us {
+        font-size: 13px;
+    }
+
+    .contact-form {  
+        flex-direction: column;  
+        font-size: 13px;
+       }  
 }
