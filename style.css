@@ -341,7 +341,7 @@ nav svg {
 }
 
 .apply-now-button {
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .arrow-forward {
@@ -542,8 +542,25 @@ nav svg {
        }  
 
        .mentorship-container {  
-        padding: 20px;  
+        padding: 50px;  
      }  
+
+.col1-b h1 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.col1-b p {
+    font-size: 15px;
+}
+
+.apply-now-button {
+    margin-bottom: 20px;
+}
+
+.apply-now-button a {
+    font-size: 15px;
+}
     
      .how-it-works {  
         padding: 20px;  
