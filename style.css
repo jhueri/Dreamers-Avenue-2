@@ -220,7 +220,7 @@ nav svg {
     display: block;   
   }  
 
-  .col1-a img:hover, .col2-a img:hover, .col3-a img:hover {  
+.col1-a img:hover, .col2-a img:hover, .col3-a img:hover {  
     transform: translateY(-10px); /* Moves the element 10 pixels up on hover */
 
     transition: transform 0.3s ease; /* Smooth transition over 0.3 seconds */
@@ -251,7 +251,6 @@ nav svg {
     flex-direction: column;  
     align-items: flex-start;  
     margin-top: 20px;
-    
 }
 
 .form-label {  
@@ -259,7 +258,7 @@ nav svg {
     margin-bottom: 10px;
   }  
     
-  .form-input, .form-textarea {  
+.form-input, .form-textarea {  
     width: 95%;  
     padding: 10px;  
     margin-bottom: 20px;  
@@ -267,7 +266,7 @@ nav svg {
     border-radius: 5px;  
   }  
 
-  .form-button {  
+.form-button {  
     background-color: var(--color-4);  
     color: var(--color-1);  
     padding: 10px 20px;  
@@ -276,7 +275,7 @@ nav svg {
     cursor: pointer;  
   }  
 
-  .form-button:hover {  
+.form-button:hover {  
     background-color: #c09648;  
   }
 
@@ -291,7 +290,7 @@ nav svg {
     gap: 0;
   }  
     
-  .col1-b {  
+.col1-b {  
     flex-basis: 60%;
     display: flex;  
     justify-content: center;  
@@ -354,7 +353,7 @@ nav svg {
     transition: 0.25s ease-out;
 }
     
-  .col2-b {  
+.col2-b {  
     flex-basis: 40%;  
     display: flex;  
     justify-content: center;  
@@ -365,58 +364,51 @@ nav svg {
     background-image: url('assets/mentor-photo.jpg'); 
   }  
     
-  .col2-b img {  
+.col2-b img {  
     width: 100%;  
     height: 100%;  
     object-fit: cover;
     border-radius: 0;
   }  
-   
- .how-it-works {  
-    background-color: #f4f4f4;  
-    padding: 50px;
-    flex-basis: 70%;
-    display: flex;  
-    justify-content: center;  
-    align-items: center;  
-    flex-direction: column;   
-    text-align: left; 
- }
-
-.eligibility {
-    flex-basis: 30%;  
-    display: flex;  
-    justify-content: center;  
-    align-items: flex-start;
-    flex-direction: column;
-    background-color: #f4f4f4;  
-    padding: 50px;  
-}
-
-.eligibility h3, p {
-    text-align: left;
-}
 
 .description-container {
-    padding: 20px 0 20px 0;  
-    background-color: #f4f4f4;
+    padding: 15px 0 15px 0;  
     text-align: left;  
     display: flex;  
     justify-content: space-between;  
     align-items: flex-start;  
-    height: 65vh;
+    height: 100vh;
     gap: 0;
+    background-color: #f4f4f4;
+    margin-bottom: -30px;
 }
+   
+.how-it-works {  
+    background-color: #f4f4f4;  
+    padding: 50px;
+    flex-basis: 60%;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    flex-direction: column;   
+    text-align: left;
+    margin-top: 25px;
+ }
 
 .how-it-works h3 {
     font-size: 40px;
     color: var(--color-1);
     margin-bottom: 15px;
     text-align: left;
+}
 
+.how-it-works p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
  
- .how-it-works ul {  
+.how-it-works ul {  
     list-style: none;  
     font-size: 18px;
     padding: 0;  
@@ -424,22 +416,56 @@ nav svg {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
  }  
    
- .how-it-works li {  
+.how-it-works li {  
     margin-bottom: 20px;  
  }  
+
+ .eligibility {
+    flex-basis: 30%;  
+    display: block;    
+    padding: 35px;
+    background-color: #e9e9e9;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.eligibility-header {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: var(--color-1);
+}
+
+.eligibility ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
    
- .apply-now {  
+.apply-now {  
     background-color: #0149ac;  
     padding: 50px;  
     color: white;  
     text-align: center;  
- }  
+ }
+
+.apply-now h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.apply-now p {
+    font-size: 18px;
+}
    
  .apply-buttons {  
     display: flex;  
-    justify-content: space-between;  
-    margin-top: 20px;  
- }  
+    justify-content: space-around;  
+    margin-top: 30px;
+ }
+
+.apply-buttons a {
+    text-decoration: none;
+    font-size: 20px;
+}
    
  .apply-mentee, .apply-mentor {  
     background-color: #efbb5c;  
@@ -448,7 +474,11 @@ nav svg {
     border: none;  
     border-radius: 5px;  
     cursor: pointer;  
- }  
+ }
+
+ .apply-mentee {
+    margin-right: -500px;
+ }
    
  .apply-mentee:hover, .apply-mentor:hover {  
     background-color: #c09648;  
