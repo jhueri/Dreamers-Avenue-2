@@ -669,14 +669,12 @@ nav svg {
     flex-direction: column;
     padding-bottom: 100px;
 }
-
-.me
     
-     .contact-us {  
-        padding: 20px;  
-     }  
+.contact-us {  
+    padding: 20px;  
+}  
     
-     .social-links {  
-        padding: 10px;  
-     }  
+.social-links {  
+    padding: 10px;  
+}  
 }
