@@ -221,9 +221,9 @@ nav svg {
   }  
 
 .col1-a img:hover, .col2-a img:hover, .col3-a img:hover {  
-    transform: translateY(-10px); /* Moves the element 10 pixels up on hover */
+    transform: translateY(-10px); 
 
-    transition: transform 0.3s ease; /* Smooth transition over 0.3 seconds */
+    transition: transform 0.3s ease; 
   }
 
 .col1-a h3, .col2-a h3, .col3-a h3 {  
@@ -288,6 +288,7 @@ nav svg {
     align-items: stretch;  
     height: 65vh;
     gap: 0;
+    position: relative;
   }  
     
 .col1-b {  
@@ -628,14 +629,27 @@ nav svg {
         font-size: 13px;
     }
 
-    .contact-form {  
-        flex-direction: column;  
-        font-size: 13px;
-       }  
+.contact-form {  
+    flex-direction: column;  
+    font-size: 13px;
+}  
 
-       .mentorship-container {  
-        padding: 50px;  
-     }  
+.col1-b {
+    flex-basis: 100%;
+}
+
+.col2-b {
+    position: relative; 
+    top: auto; 
+    left: auto; 
+    width: auto; 
+    height: auto; 
+}
+
+.col2-b img {
+    width: 100%; 
+    height: auto;
+}
 
 .col1-b h1 {
     font-size: 30px;
@@ -646,33 +660,17 @@ nav svg {
     font-size: 15px;
 }
 
-.apply-now-button {
-    margin-bottom: 20px;
-}
-
-.apply-now-button a {
+.col1-b a {
     font-size: 15px;
 }
-    
-     .how-it-works {  
-        padding: 20px;  
-     }  
-    
-     .eligibility {  
-        padding: 20px;  
-     }  
-    
-     .apply-now {  
-        padding: 20px;  
-     }  
-    
-     .apply-buttons {  
-        flex-direction: column;  
-     }  
-    
-     .apply-mentee, .apply-mentor {  
-        margin-bottom: 10px;  
-     }  
+
+.mentorship-container {
+    margin-bottom: 40px;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.me
     
      .contact-us {  
         padding: 20px;  
